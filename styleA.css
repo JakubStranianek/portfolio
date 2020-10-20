@@ -133,6 +133,12 @@ h4:first-of-type {
     margin-left: -40px;
 }
 
+.preFoot p {
+    position: relative;
+    top: 74px;
+    right: 171px;
+}
+
 #bottomP {
     font-size: 20px;
     top: 80%;
@@ -151,8 +157,8 @@ li {
 footer {
     display: inline-block;
     position: absolute;
-    bottom: -3185px;
-    left: 800px;
+    bottom: -500px;
+    left: 166px;
 }
 
 footer p {
