@@ -1,0 +1,172 @@
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 25px;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav-right {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 25px;
+    right: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav-right ul {
+    padding-left: 0;
+}
+
+.sidenav a:hover:nth-child(1) {
+    color: grey;
+}
+
+.main {
+    margin: 0 350px;
+    padding: 0 10px;
+}
+
+.container {
+    width: 980px;
+    height: 1000px;
+    position: absolute;
+}
+
+h2 {
+    font-size: 90px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 200px;
+    font-weight: 500;
+    margin-top: 170px;
+    margin-bottom: 0;
+}
+
+.photo {
+    background: url("img/about.jpg");
+    width: 301px;
+    height: 377px;
+    position: absolute;
+    margin-top:-36px;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: normal;
+    color: black;
+}
+
+p {
+    width: 500px;
+    margin-top: 25px;
+    margin-left: 500px;
+    font-size: 16px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.6em;
+}
+
+.container a {
+    position: absolute;
+    color: white;
+    background: black;
+    border: 10px solid black;
+    left: 51%;
+    margin-top: 50px;
+    padding: 0 40px;
+}
+
+.container a:hover {
+    position: absolute;
+    color: black;
+    background: white;
+    border: 10px solid white;
+    left: 51%;
+    margin-top: 50px;
+    padding: 0 40px;
+}
+
+h3 {
+    position: relative;
+    top: 23%;
+    font-size: 100px;
+    font-weight: 500;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h4 {
+    display: inline-block;
+    position: relative;
+    margin-left: 250px;
+    top: 150px;
+    font-size: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h4:first-of-type {
+    margin-left: 0;
+}
+
+.preFoot {
+    height: 300px;
+    position: absolute;
+    top: 100%;
+}
+
+.preFoot ul li {
+    position: relative;
+    top: 150px;
+}
+
+.specialA {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left: -40px;
+}
+
+#bottomP {
+    font-size: 20px;
+    top: 80%;
+    left: 0;
+}
+
+.foot {
+    top:83%;
+}
+
+li {
+    list-style: none;
+}
+
+
+footer {
+    display: inline-block;
+    position: absolute;
+    bottom: -3185px;
+    left: 800px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    word-spacing: 1px;
+}
+
+#special {
+    height: 30px;
+}
+
+#front {
+    z-index: 1;
+    position: relative;
+}
