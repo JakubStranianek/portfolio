@@ -29,7 +29,7 @@
 }
 
 .main {
-    margin: 0 250px;
+    margin: 0 350px;
     padding: 0 10px;
 }
 
@@ -59,7 +59,7 @@ h2 {
 
 .gallery {
     width: 900px;
-    height: 1000vh;
+    height: 300vh;
     margin: 0 30px;
     position: absolute;
 }
@@ -74,9 +74,6 @@ h2 {
     left: 265px;
 }
 
-.wrapper {
-
-}
 
 .logo {
     background-image: url("img/logo.jpg");
@@ -84,23 +81,68 @@ h2 {
     position: absolute;
     width: 285px;
     height: 343px;
-    top: 11%;
-    left: 6%;
+    top: 32.5%;
+    left: 8%;
     border-top: 84px solid #db0a15;
     border-bottom: 84px solid #db0a15;
     border-left: 40px solid #db0a15;
     border-right: 40px solid #db0a15;
 }
 
+.domiB {
+    background-image: url("img/domiBan.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 475px;
+    height: 475px;
+    top: 48%;
+    left: 57%;
+}
+
+.fruit {
+    background-image: url("img/beFruit.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 323px;
+    height: 375px;
+    top: 58%;
+    left: 8%;
+}
+
+.bro {
+    background-image: url("img/forrest.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 546px;
+    height: 729px;
+    top: 70%;
+    left: 49%;
+}
+
+.couple {
+    background-image: url("img/couple.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 952px;
+    height: 583px;
+    top: 100%;
+    left: 18%;
+}
+
 .gallery p {
     font-size: 20px;
     font-weight: 550;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    float: right;
     width: 300px;
     position: absolute;
-    top: 12.5%;
+    top: 39.2%;
     left: 66%;
+}
+
+#bottomP {
+    font-size: 20px;
+    top: 80%;
+    left: 0;
 }
 
 .foot {
@@ -111,11 +153,12 @@ li {
     list-style: none;
 }
 
+
 footer {
     display: inline-block;
-    position: relative;
-    bottom: -485px;
-    left:640px;
+    position: absolute;
+    bottom: -3185px;
+    left: 800px;
 }
 
 footer p {
