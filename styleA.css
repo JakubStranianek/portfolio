@@ -1,3 +1,7 @@
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
 .sidenav {
     height: 100%;
     width: 200px;

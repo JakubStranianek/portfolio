@@ -71,7 +71,7 @@ article {
      font: normal normal bold 100px/1.2em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
      width: 510px;
      z-index: 1;
-     font-weight: 550;
+     font-weight: 500;
  }
 
 #logo {
@@ -111,6 +111,3 @@ p {
 #special {
     height: 30px;
 }
-
-/* -- Transition effect -- */
-
